@@ -1,7 +1,7 @@
 package InheritBuilderTest2;
 use lib qw(t/lib);
 use base qw(InheritBuilderTestBase1 InheritBuilderTestBase2);
-use Class::Attriubute;
+use Class::Attribute;
 
 has 'a' => (
     is => 'rw',
