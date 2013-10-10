@@ -1,5 +1,5 @@
 package InheritDefault1Test;
-use Class::Attriubute;
+use Class::Attribute;
 
 has 'a' => (
     is => 'ro',

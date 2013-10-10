@@ -1,6 +1,6 @@
 package InheritMultiRequiredTest;
 use base qw(InheritRequired1Test InheritRequired2Test);
-use Class::Accessor::Antlers;
+use Class::Attribute;
 
 has 'a' => (
     is => 'rw',
