@@ -1,5 +1,5 @@
 package NewTest;
-use Mou;
+use Class::Attribute;
 
 has 'a' => (
     is => 'rw',

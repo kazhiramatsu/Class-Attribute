@@ -1,5 +1,5 @@
 package BuilderTest;
-use Class::Attriubite;
+use Class::Attribute;
 
 has 'a' => (
     is => 'rw',
