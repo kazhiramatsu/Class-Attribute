@@ -1,7 +1,7 @@
 package InheritLazyTest1;
 use lib qw(t/lib);
 use base qw(InheritLazyTestBase1);
-use Class::Accessor::Antlers;
+use Class::Attribute;
 
 has 'a' => (
     is => 'rw',

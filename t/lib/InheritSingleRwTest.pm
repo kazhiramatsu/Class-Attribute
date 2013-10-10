@@ -1,6 +1,6 @@
 package InheritSingleRwTest;
 use base qw(InheritRw1Test);
-use Mou;
+use Class::Attribute;
 
 has 'a' => (
     is => 'rw',

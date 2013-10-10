@@ -1,5 +1,5 @@
 package InheritLazyTestBase1;
-use Class::Accessor::Antlers;
+use Class::Attribute;
 
 has 'a' => (
     is => 'ro',

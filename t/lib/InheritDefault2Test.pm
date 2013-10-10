@@ -1,5 +1,5 @@
 package InheritDefault2Test;
-use Class::Accessor::Antlers;
+use Class::Attribute;
 
 has 'a' => (
     is => 'rw',

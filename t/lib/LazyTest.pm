@@ -1,5 +1,5 @@
 package LazyTest;
-use Mou;
+use Class::Attribute;
 
 has 'a' => (
     is => 'rw',
