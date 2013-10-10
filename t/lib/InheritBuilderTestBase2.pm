@@ -1,5 +1,5 @@
 package InheritBuilderTestBase2;
-use Class::Attriubite;
+use Class::Attribute;
 
 has 'a' => (
     is => 'rw',

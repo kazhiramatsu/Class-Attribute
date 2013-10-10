@@ -1,5 +1,5 @@
 package DefaultValueTest;
-use Class::Attriubute;
+use Class::Attribute;
 use A;
 
 has 'a' => (
