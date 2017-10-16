@@ -1,6 +1,6 @@
 package DefaultValueTest;
 use Class::Attribute;
-use A;
+use Fake;
 
 has 'a' => (
     is => 'rw',
@@ -10,7 +10,7 @@ has 'a' => (
 has 'b' => (
     is => 'rw',
     default => sub {
-        A->new;
+        Fake->new;
     }
 );
 
