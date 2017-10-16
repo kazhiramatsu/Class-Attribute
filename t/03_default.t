@@ -7,7 +7,7 @@ use DefaultValueTest;
 subtest "should set default values"  => sub {
     my $test = DefaultValueTest->new();
     is $test->a, 1;
-    isa_ok $test->b, 'A';
+    isa_ok $test->b, 'Fake';
     is_deeply $test->c, [1, 2, 3];
     is_deeply $test->d, {a => 1, b => 2};
     is $test->e, undef;

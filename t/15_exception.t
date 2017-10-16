@@ -5,4 +5,6 @@ use Test::More;
 use Exception;
 
 
+ok(1);
 
+done_testing;
